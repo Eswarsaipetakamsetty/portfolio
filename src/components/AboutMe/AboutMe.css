@@ -27,6 +27,11 @@
         flex-direction: column;
     }
 
+    .aboutme-container-title {
+        font-size: 7em;
+        margin-top: 0%;
+    }
+
     .section-1 {
         width: 90%;
     }

@@ -26,3 +26,9 @@
 .foot-wrap .des {
     color: white;
 }
+
+@media (max-width:768px) {
+    .footer-heading {
+        font-size: 8em;
+    }
+}
