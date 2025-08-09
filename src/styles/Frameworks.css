@@ -1,0 +1,50 @@
+.frameworks-container {
+  width: 100%;
+  border: 1px solid rgb(82, 82, 82);
+  background-color: rgb(50, 50, 50);
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 3%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.frameworks-title {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.icons img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .tools-title {
+    font-size: 18px;
+  }
+
+  .icons {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tools-title {
+    font-size: 16px;
+  }
+
+  .icons img {
+    max-width: 90%;
+  }
+}

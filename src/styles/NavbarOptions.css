@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  gap: 24px;
+  background-color: rgba(245, 222, 179, 0);
+  padding: 12px 24px;
+  justify-content: right;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "bakbak-one", sans-serif;    
+  cursor: pointer;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  color: #60a5fa; /* light blue */
+}
+
+.nav-button.active {
+  animation: borderGrow 0.3s forwards;
+}
+
+@keyframes borderGrow {
+    from {
+        border-bottom: 2px solid transparent;
+        padding-bottom: 2px;
+    }
+    to {
+        border-bottom: 2px solid #60a5fa;
+        padding-bottom: 2px;
+    }
+}

@@ -1,0 +1,103 @@
+.visiting-card-container {
+    width: 100%;
+    border: 1px solid rgb(82, 82, 82);
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bio {
+  color: white;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Social & buttons container */
+.icons-buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+/* Social icons row */
+.icons-wrapper {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.social-icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  color: white;
+  background-color: rgb(63, 63, 63);
+  border: 1px solid rgb(82, 82, 82);
+  border-radius: 50%;
+  transition: border 0.2s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.social-icon:hover {
+  border-color: white;
+}
+
+/* Resume button */
+.button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.resume-button {
+  background-color: rgb(63, 63, 63);
+  border: 1px solid rgb(82, 82, 82);
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  transition: border 0.2s ease-out, border-radius 0.2s ease-out;
+}
+
+.resume-button:hover {
+  border-color: white;
+  border-radius: 50px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .icons-buttons-wrapper {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .button-wrapper {
+    justify-content: center;
+  }
+
+  .bio {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-icon {
+    height: 2rem;
+    width: 2rem;
+    font-size: 1rem;
+  }
+
+  .resume-button {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+}

@@ -1,0 +1,99 @@
+.project-card {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 2em auto;
+  max-width: 1200px;
+  padding: 1em;
+}
+
+.project-card-title {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.image-description-wrapper {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.image-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.project-description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-description {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.tags-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.tags-wrapper span {
+    padding: 6px 12px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+}
+
+.redirect-url {
+    color: black;
+    background-color: white;
+    font-size: 2em;
+    border-radius: 60%;
+    transition: 0.2s ease-out;
+}
+
+.redirect-url:hover {
+    color: black;
+    background-color: black;
+    border: 2px solid white;
+    font-size: 2.5em;
+    border-radius: 60%;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .image-description-wrapper {
+    flex-direction: var(--direction);
+    text-align: center;
+  }
+
+  .image-wrapper,
+  .project-description-container {
+    width: 100%;
+  }
+}
+
+
+
+

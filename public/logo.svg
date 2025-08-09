@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="sortminder logo">
+  <defs>
+    <linearGradient id="monoG" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7B61FF"/>
+      <stop offset="1" stop-color="#00D4FF"/>
+    </linearGradient>
+    <filter id="s2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="80" height="80" rx="16" fill="url(#monoG)" filter="url(#s2)"/>
+  <g transform="translate(12,8)" fill="white" font-family="Segoe UI, Roboto, Arial" font-weight="700">
+    <text x="0" y="34" font-size="36">E</text>
+    <path d="M34 12c-8 2-14 8-14 16 0 9 7 16 16 16 4 0 8-1 10-3" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(-6,4)"/>
+  </g>
+</svg>
