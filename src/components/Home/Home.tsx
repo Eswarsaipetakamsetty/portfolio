@@ -3,6 +3,7 @@ import TextType from "../../styles_components/TypeText"
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa"
 import TextCarousel from "../../styles_components/TextCarousel"
 import ScaleUpText from "../../styles_components/ScaleUpText"
+import EswarsaiImage from "../../assets/Eswar_Sai.jpg"
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
                     showCursor={true}
                     cursorCharacter="|"
                 />
+                <img className="hero" src={EswarsaiImage}></img>
             </div>
             <div className="info-wrapper">
                 <h1 className="name">Eswar Sai</h1>
